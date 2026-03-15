@@ -1,0 +1,65 @@
+.footer
+{
+    padding: 50px;
+    background-color: #0000000a;
+    border-top: 1px solid black;
+    width: 1690px;
+    margin-left: 0px;
+}
+
+.container
+{
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+
+
+.horizontal-list
+{
+    display: flex;
+    list-style-type: none;
+    gap: 150px;
+}
+
+.horizontal-list > li
+{
+    font-size: 20px;
+    text-align: center;
+    margin-left: 150px;
+    font-family: Arial, sans-serif;
+}
+
+
+a
+{
+    text-decoration: none;
+    color: black;
+}
+
+a:hover
+{
+    border: 2px solid black;
+    background-color: black;
+    color: white;
+}
+
+
+.footer p
+{
+    margin-left: 100px;
+}
+
+
+
+.footer img
+{
+    margin-left: 650px;
+}
+
+.dragon_bar
+{
+    margin-left: 500px;
+    margin-top: -50px;
+}

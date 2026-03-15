@@ -1,0 +1,58 @@
+/* Categories Section */
+.itemsUl
+{
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    text-align: center;
+}
+
+/* Categories descriptions  */
+.itemsUl p
+{
+    width: 100%;
+    text-align: center;
+}
+
+/* Categories images */
+.itemsUl img
+{
+    border-radius: 50%;
+    height: 170px;
+    width: 170px;
+    margin-top: 5px;
+    margin-left: 0px;
+}
+
+/* Categories tables */
+.appItem
+{
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    width: 30%;
+    box-shadow: 37px 25px 24px -21px rgb(0 0 0 / 52%);
+    background-color: #00000017;
+    border-radius: 15px;
+}
+
+/* First table */
+.appItem:first-child
+{
+    margin-left: -22px;
+}
+
+/* Second table */
+.appItem:nth-child(2)
+{
+    margin-left: 50px;
+}
+
+/* Last table */
+.appItem:last-child
+{
+    margin-left: 50px;
+}

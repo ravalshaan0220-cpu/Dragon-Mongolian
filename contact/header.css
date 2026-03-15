@@ -1,0 +1,28 @@
+/* Header class styles */
+.header
+{
+    padding: 500px;
+    background-color: white;
+    margin: 100px;
+    box-shadow: 3px 3px;
+}
+
+/* Contact Us Text */
+.header_h2
+{
+    text-align: center;
+    margin-top: -500px;
+    font-size: x-large;
+    margin-left: 20px;
+}
+
+
+/* Contact Grid Items Styling */
+.contact_info 
+{
+    display: flex;
+    grid-template-columns: repeat(auto-fit, minimax(200px, 1fr));
+    gap: 50px;
+    text-align: center;
+    margin-left: 65px;
+}

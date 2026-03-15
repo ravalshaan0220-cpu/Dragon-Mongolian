@@ -1,0 +1,65 @@
+/* Footer Section */
+.footer 
+{
+    padding: 300px;
+    background-color: #0000000a;
+    border-top: 1px solid black;
+    margin-top: -600px;
+    width: 1690px;
+    margin-left: 100px;
+}
+
+.container
+{
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+
+/* Footer List items Styling */
+.horizontal-list
+{
+    display: flex;
+    list-style-type: none;
+    gap: 150px;
+    margin-top: -250px;
+}
+
+.horizontal-list > li
+{
+    font-size: 20px;
+    text-align: center;
+    margin-left: 50px;
+    font-family: Arial, sans-serif;
+}
+
+
+/* Footer a:href Styling */
+a
+{
+    text-decoration: none;
+    color: black;
+}
+
+a:hover
+{
+    border: 2px solid black;
+    background-color: black;
+    color: white;
+}
+
+
+/* Dragon logo image */
+.footer img
+{
+    margin-left: 400px;
+}
+
+
+/* Dragon bar logo */
+.dragon_bar
+{
+    margin-left: 500px;
+    margin-top: -250px;
+}

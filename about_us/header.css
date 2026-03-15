@@ -1,0 +1,36 @@
+.header
+{
+    padding: 500px 0px 0px;
+    background-color: white;
+    margin: 100px;
+    box-shadow: 3px 3px;
+}
+
+
+
+/* Font styles */
+.header_title
+{
+    padding: -500px;
+    margin-top: -70%;
+}
+
+.header_title h1
+{
+    text-align: center;
+    margin-left: 50px;
+    margin-top: 750px;
+    font-size: xx-large;
+    color: black;
+}
+
+
+
+/* Paragraph styles */
+#para
+{
+    margin-left: 5px;
+    margin-right: 0px;
+    line-height: 1;
+    word-spacing: 5px;
+}
